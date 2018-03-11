@@ -1,0 +1,93 @@
+	body
+	{	background-color: rgb(255,243,217);
+		background-image: url("background1.png");
+		background-repeat: repeat-x;}
+	@font-face
+	{	font-family: moving;
+		src: url(moving_skate.ttf);}
+	.font1
+	{	font-family: moving;
+		font-size: 90px;}
+	@font-face
+	{	font-family: latine;
+		src: url(latine.ttf);}
+		
+	.font2
+	{	font-family: "Times New Roman", serif;
+		font-size: 18px;
+		padding=20px;
+		magin=20px;}
+	.center
+	{	text-align: center;}
+	.titulo
+	{	color: #ff3822;
+		font-family: "Comic Sans";
+		font-size: 20px;
+		font-weight: bold;}
+	.border
+	{	border: 2px solid white;
+		margins: 20px;
+		border-radius: 10px;
+		color: #12a892;
+		-webkit-text-stroke-width: 0.2px;
+		-webkit-text-stroke-color: black; 
+	}
+	
+	.color1
+	{	
+		color: #12a892;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: black;}
+	
+	nav
+	{	align-items: center;
+		justify-content: center;}
+	
+	nav .container 
+	{	background: #10047d;
+		outline: #10047d solid 8px;
+		padding: 10px;
+		margin: auto;}
+	
+	nav ul 
+	{	padding: 0px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;}
+		
+	nav ul li
+	{	display: inline-block;}
+	
+	nav ul li a {
+		padding: 7px 12px;
+		color: #fff;
+		text-decoration: none;
+		transition: all 0.3s;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}		
+	nav ul li a:hover {
+		border: 1px solid #fff;
+	}
+		
+	img
+	{	display: flex;
+		align-items: left;}
+		
+	a.style	{color: #12a892;}
+	a.style:hover	{color: #10277e;}
+	
+	a.download
+	{	border: 2px solid #3affc5;
+		background: #3affc5;
+		margins: 20px;
+		border-radius: 5px;
+		color: white;
+		text-decoration: none;}
+	a.download:hover
+	{	border: 2px solid #1e8567;
+		background: #1e8567;
+		margins: 20px;
+		border-radius: 5px;
+		color: white;
+		text-decoration: underline;}
